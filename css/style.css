@@ -52,5 +52,5 @@ main .city {
   background: #00000030;
 }
 .city-name:hover + .layover {
-  background: #ffffff10;
+  display: none;
 }
