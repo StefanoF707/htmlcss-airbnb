@@ -3,3 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main .city {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  border: 1px solid #fff;
+}
+
+#nyc.city {
+  background-image: url("../img/new-york.jpg");
+}
