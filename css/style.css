@@ -8,10 +8,49 @@ main .city {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
-  border: 1px solid #fff;
+  background-position: center;
+  border: 1px solid #000;
+  position: relative;
 }
 
-#nyc.city {
+/* sfondi delle città */
+#new-york.city {
   background-image: url("../img/new-york.jpg");
+}
+#los-angeles.city {
+  background-image: url("../img/los-angeles.jpg");
+}
+#shanghai.city {
+  background-image: url("../img/shanghai.jpg");
+}
+#copenhagen.city {
+  background-image: url("../img/copenhagen.jpg");
+}
+/* /sfondi delle città */
+
+.city a {
+  padding: 20px;
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+  background: #00000085;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.city a:hover {
+  text-decoration: underline;
+  padding: 25px;
+  font-size: 37px;
+}
+
+.city .layover {
+  height: 100%;
+  background: #00000030;
+}
+.city:hover .layover {
+  background: #ffffff10;
 }
