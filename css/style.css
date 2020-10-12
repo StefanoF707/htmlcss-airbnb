@@ -28,7 +28,7 @@ main .city {
 }
 /* /sfondi delle città */
 
-.city a {
+.city .city-name {
   padding: 20px;
   font-size: 35px;
   font-family: 'Dancing Script', cursive;
@@ -41,7 +41,7 @@ main .city {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.city a:hover {
+.city .city-name:hover {
   text-decoration: underline;
   padding: 25px;
   font-size: 37px;
@@ -51,6 +51,6 @@ main .city {
   height: 100%;
   background: #00000030;
 }
-.city:hover .layover {
+.city-name:hover + .layover {
   background: #ffffff10;
 }
