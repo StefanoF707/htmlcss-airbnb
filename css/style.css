@@ -35,6 +35,7 @@ main .city {
   background: #00000085;
   border-radius: 15px;
   text-decoration: none;
+  text-transform: uppercase;
   color: #fff;
   position: absolute;
   top: 50%;
@@ -43,7 +44,6 @@ main .city {
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 .city .city-name:hover {
-  text-decoration: underline;
   padding: 25px;
   font-size: 37px;
 }
